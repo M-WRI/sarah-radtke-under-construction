@@ -4,8 +4,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  height: 200px;
-  padding: 100px 2rem 120px 2rem;
+  padding: 100px 2rem 30px 2rem;
 }
 
 .infoContainer {
@@ -48,4 +47,14 @@
 
 .contactContainer span {
   margin-bottom: 8px;
+}
+
+@media (max-width: 725px) {
+  .container {
+    /* position: unset; */
+  }
+
+  .infoContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

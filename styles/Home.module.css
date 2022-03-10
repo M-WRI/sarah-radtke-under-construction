@@ -19,3 +19,18 @@
     height: 640px;
   }
 }
+
+@media (max-width: 725px) {
+  .container {
+    padding: 40% 2rem 0 2rem;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .informationContainer {
+    width: 95vw;
+    height: 95vw;
+  }
+}

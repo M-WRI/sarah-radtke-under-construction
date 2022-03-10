@@ -1,0 +1,51 @@
+.container {
+  position: fixed;
+  background: var(--secondary-color);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 200px;
+  padding: 100px 2rem 120px 2rem;
+}
+
+.infoContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  grid-gap: 2rem;
+  text-align: center;
+}
+
+.addressContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: -80px;
+}
+
+.addressContainer span {
+  margin-bottom: 8px;
+}
+
+.scheduleContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.scheduleContainer span {
+  margin-bottom: 8px;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactContainer span {
+  margin-bottom: 8px;
+}

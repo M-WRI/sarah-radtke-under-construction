@@ -1,3 +1,7 @@
+:root {
+  --secondary-color: #dfd6c5;
+}
+
 html,
 body {
   padding: 0;

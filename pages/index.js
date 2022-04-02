@@ -7,7 +7,7 @@ import Seo from "../components/Seo";
 export default function Home() {
   return (
     <main>
-      <Seo title="Sarah Radtke | Privat Praxis für Physiotherapie | Hamburg" />
+      <Seo title="Sarah Radtke | Privatpraxis für Physiotherapie | Hamburg" />
       <Card />
       <InformationModal />
     </main>

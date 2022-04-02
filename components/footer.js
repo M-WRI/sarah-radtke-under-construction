@@ -21,12 +21,12 @@ const footer = () => {
           </Link>
         </div>
         <div className={styles.scheduleContainer}>
-          Termine telefonisch von Mo | So 08 - 20 Uhr <br />
+          Termine nach Vereinbarung <br />
           Hausbesuche gerne nach Absprache
         </div>
         <div className={styles.contactContainer}>
           <a href="tel:+494088358553">
-            <span>040-88358553</span>
+            <span>040.88 35 85 53</span>
           </a>
           <a href="mailto:praxis@sarahradtke.de">
             <span>praxis@sarahradtke.de</span>

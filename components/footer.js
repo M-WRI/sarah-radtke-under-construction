@@ -21,9 +21,8 @@ const footer = () => {
           </Link>
         </div>
         <div className={styles.scheduleContainer}>
-          Termine telefonisch von Mo | Fr 08 - 20 Uhr <br />
-          Termine auch am Wochenende <br />
-          Ich komme gerne auch zu Ihnen nach Hause
+          Termine telefonisch von Mo | So 08 - 20 Uhr <br />
+          Hausbesuche gerne nach Absprache
         </div>
         <div className={styles.contactContainer}>
           <a href="tel:+494088358553">

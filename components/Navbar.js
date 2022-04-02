@@ -6,22 +6,16 @@ const Navbar = () => {
   return (
     <nav className={styles.container}>
       <div className={styles.logoContainer}>
-        <div className={styles.sRLogo}>
+        <div className={styles.imageContainer}>
           <Image
             src="/img/sarah-radtke-logo.svg"
-            alt="SR"
+            alt="Sarah Radtke Logo"
             layout="fill"
             objectFit="contain"
+            priority
           />
         </div>
-        <div className={styles.nameLogo}>
-          <Image
-            src="/img/sarah-radtke.svg"
-            alt="SR"
-            layout="fill"
-            objectFit="contain"
-          />
-        </div>
+        <h2 className={styles.logoFont}>Sarah Radtke</h2>
       </div>
     </nav>
   );

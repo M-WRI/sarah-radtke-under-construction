@@ -4,22 +4,26 @@ import styles from "../styles/Footer.module.css";
 const footer = () => {
   return (
     <footer className={styles.container}>
-      <div className={styles.infoContainer}>
-        <div className={styles.addressContainer}>
-          <h1 className={styles.name}>Sarah Radtke</h1>
+      <div className={styles.contentWrapper}>
+        <div className={styles.addressInfoContainer}>
+          <h2 className={styles.headline}>Sarah Radtke</h2>
           <span>
-            Privatpraxis für Physiotherapie, Manuelle Therapie und Akupunktur
+            Privatpraxis für Physiotherapie, <br /> Manuelle Therapie und
+            Akupunktur
           </span>
-          <address>Waitzstraße 7, 22607 Hamburg</address>
+          <address className={styles.adress}>
+            Waitzstraße 7 22607 Hamburg
+          </address>
         </div>
         <div className={styles.scheduleContainer}>
-          <span>Mo | Mi | Fr 8 – 20 Uhr</span>
-          <span>Di | Do 8 – 20 Uhr</span>
-          <span>Telefonisch täglich 8 – 20 Uhr</span>
+          Termine telefonisch von Mo | Fr 08 - 20 Uhr <br />
+          Termine auch am Wochenende <br />
+          Ich komme gerne auch zu Ihnen nach Hause
         </div>
         <div className={styles.contactContainer}>
-          <span>040 883 585 53</span>
-          <span>praxis@sarahradtke.de</span>
+          <span>
+            040-88358553 <br /> praxis@sarahradtke.de
+          </span>
         </div>
       </div>
     </footer>

@@ -1,36 +1,42 @@
 .container {
-  padding: 2rem;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
+  padding: 136px 0 120px 0;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
   align-items: center;
+  grid-gap: 2rem;
 }
 
 .informationContainer {
   position: relative;
-  transform: translateY(-10%);
-  width: 50vw;
-  height: 50vw;
+  width: 300px;
+  height: 200px;
 }
 
-@media (min-width: 1280px) {
-  .informationContainer {
-    width: 640px;
-    height: 640px;
-  }
+.portrait {
+  position: relative;
+  width: 280px;
+  height: 350px;
 }
 
-@media (max-width: 725px) {
+@media (max-width: 768px) {
   .container {
-    padding: 40% 2rem 0 2rem;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 2rem;
+  }
+
+  .portrait {
+    position: relative;
+    width: 200px;
+    height: 280px;
+    border-radius: 50%;
   }
 
   .informationContainer {
-    width: 95vw;
-    height: 95vw;
+    position: relative;
+    width: 400px;
+    height: 250px;
   }
 }

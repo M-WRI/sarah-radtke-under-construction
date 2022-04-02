@@ -43,4 +43,8 @@
 }
 
 @media (max-width: 450px) {
+  .portrait {
+    width: 230px;
+    height: 300px;
+  }
 }

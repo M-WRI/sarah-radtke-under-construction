@@ -28,8 +28,8 @@ export default function Home() {
             objectFit="contain"
           />
         </div>
-        <InformationModal />
       </div>
+      <InformationModal />
     </>
   );
 }

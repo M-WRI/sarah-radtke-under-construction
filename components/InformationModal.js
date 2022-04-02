@@ -32,7 +32,7 @@ const InformationModal = () => {
         variants={animation}
         animate={open ? "open" : "close"}
       >
-        <Footer />
+        {open && <Footer />}
       </motion.div>
 
       <div

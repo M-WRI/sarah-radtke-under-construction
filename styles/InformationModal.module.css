@@ -1,5 +1,5 @@
 .modalBtn {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 10%;
   font-size: 4rem;

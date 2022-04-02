@@ -1,4 +1,5 @@
 // styles
+import Link from "next/link";
 import styles from "../styles/Footer.module.css";
 
 const footer = () => {
@@ -7,13 +8,17 @@ const footer = () => {
       <div className={styles.contentWrapper}>
         <div className={styles.addressInfoContainer}>
           <h2 className={styles.headline}>Sarah Radtke</h2>
-          <span>
-            Privatpraxis für Physiotherapie, <br /> Manuelle Therapie und
-            Akupunktur
-          </span>
-          <address className={styles.adress}>
-            Waitzstraße 7 22607 Hamburg
-          </address>
+          <Link href="https://goo.gl/maps/gUDEhoWBeN6K8Zep6" passHref>
+            <a target="_blank">
+              <span>
+                Privatpraxis für Physiotherapie, <br /> Manuelle Therapie und
+                Akupunktur
+              </span>
+              <address className={styles.adress}>
+                Waitzstraße 7 22607 Hamburg
+              </address>
+            </a>
+          </Link>
         </div>
         <div className={styles.scheduleContainer}>
           Termine telefonisch von Mo | Fr 08 - 20 Uhr <br />
@@ -21,9 +26,12 @@ const footer = () => {
           Ich komme gerne auch zu Ihnen nach Hause
         </div>
         <div className={styles.contactContainer}>
-          <span>
-            040-88358553 <br /> praxis@sarahradtke.de
-          </span>
+          <a href="tel:+494088358553">
+            <span>040-88358553</span>
+          </a>
+          <a href="mailto:praxis@sarahradtke.de">
+            <span>praxis@sarahradtke.de</span>
+          </a>
         </div>
       </div>
     </footer>

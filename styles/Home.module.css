@@ -31,12 +31,28 @@
     position: relative;
     width: 200px;
     height: 280px;
-    border-radius: 50%;
   }
 
   .informationContainer {
     position: relative;
     width: 400px;
     height: 250px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    grid-gap: unset;
+    padding: 130px 1rem;
+    height: 100vh;
+  }
+
+  .portrait {
+    width: 220px;
+    height: 310px;
+  }
+
+  .informationContainer {
+    width: 100%;
   }
 }

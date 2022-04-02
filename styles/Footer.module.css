@@ -29,6 +29,11 @@
   margin-bottom: 1rem;
 }
 
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (max-width: 900px) {
   .contentWrapper {
     grid-template-columns: repeat(2, 1fr);

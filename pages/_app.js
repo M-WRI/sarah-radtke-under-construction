@@ -2,14 +2,14 @@ import "../styles/globals.css";
 
 // components
 import Navbar from "../components/Navbar";
-import Footer from "../components/footer";
+import InformationModal from "../components/InformationModal";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Navbar />
       <Component {...pageProps} />
-      {/* <Footer /> */}
+      <InformationModal />
     </>
   );
 }

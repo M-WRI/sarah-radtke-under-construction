@@ -1,10 +1,13 @@
 .modalBtn {
   position: fixed;
   left: 0;
+  right: 0;
   bottom: 10%;
   font-size: 4rem;
   color: var(--primary-color-dark);
   z-index: 11;
+  max-width: 1024px;
+  margin: 0 auto;
 }
 
 .modalContainer {
@@ -22,6 +25,7 @@
 
 @media (max-width: 425px) {
   .modalBtn {
+    right: 1rem;
     left: 1rem;
     bottom: 1rem;
   }

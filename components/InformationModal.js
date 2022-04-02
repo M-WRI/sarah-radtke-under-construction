@@ -7,7 +7,7 @@ import Footer from "./footer";
 import style from "../styles/InformationModal.module.css";
 
 const InformationModal = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const modalHandeler = () => {
     setOpen(!open);

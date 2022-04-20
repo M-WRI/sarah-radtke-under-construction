@@ -47,3 +47,10 @@
     height: 300px;
   }
 }
+
+.link {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: var(--primary-color-dark);
+}

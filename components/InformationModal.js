@@ -16,10 +16,12 @@ const InformationModal = () => {
   const animation = {
     open: {
       opacity: 1,
+      visibility: "visible",
       transition: { bounce: 0, ease: "easeOut", duration: 0.5 },
     },
     close: {
       opacity: 0,
+      visibility: "hidden",
       transition: { bounce: 0, ease: "easeOut", duration: 0.5 },
     },
   };
